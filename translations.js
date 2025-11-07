@@ -15,6 +15,12 @@ const translations = {
         en: 'From Sea to Plate',
         fr: 'De la mer à lassiette'
     },
+
+    'introduccion la pezca': {
+        es: 'La Pezca',
+        en: 'Fishing',
+        fr: 'Pêche'
+    },
     
     'intro-title': {
         es: 'Introducción',
@@ -2758,4 +2764,5 @@ function showNotification(lang) {
 document.addEventListener('DOMContentLoaded', () => {
     const savedLanguage = localStorage.getItem('preferredLanguage') || 'es';
     changeLanguage(savedLanguage);
+
 });
